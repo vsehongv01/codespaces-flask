@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            /* 기본 스타일 설정 */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            /* 화면을 두 부분으로 나누는 레이아웃 */
+            .container {
+                display: flex;
+                height: 100vh; /* 전체 화면 높이를 100% 사용 */
+            }
+    
+            .left-section, .right-section {
+                flex: 1; /* 두 섹션이 동일한 크기로 나뉨 */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 24px;
+                color: white;
+            }
+    
+            /* 각 섹션의 배경 색상 설정 */
+            .left-section {
+                background-color: #e74c3c; /* 빨간색 */
+            }
+    
+            .right-section {
+                background-color: #8e44ad; /* 보라색 */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Data</h1>
+        <div class="container">
+            <div class="left-section">
+            <form method="POST">
+                <label for="r_won_top">R 원용 위:</label>
+                <input type="text" id="r_won_top" name="r_won_top" placeholder="R 원용 위 입력"><br><br>
+        
+                <label for="r_won">R 원용:</label>
+                <input type="text" id="r_won" name="r_won" placeholder="R 원용 입력"><br><br>
+        
+                <label for="r_won_ear">R 원용 귀:</label>
+                <input type="text" id="r_won_ear" name="r_won_ear" placeholder="R 원용 귀 입력"><br><br>
+        
+                <label for="r_won_nose">R 원용 코:</label>
+                <input type="text" id="r_won_nose" name="r_won_nose" placeholder="R 원용 코 입력"><br><br>
+        
+                <label for="r_won_eyepoint">R 원용 아이포인트:</label>
+                <input type="text" id="r_won_eyepoint" name="r_won_eyepoint" placeholder="R 원용 아이포인트 입력"><br><br>
+        
+                <label for="r_waterpoint">R 물점:</label>
+                <input type="text" id="r_waterpoint" name="r_waterpoint" placeholder="R 물점 입력"><br><br>
+        
+                <label for="r_geun_ear">R 근용 귀:</label>
+                <input type="text" id="r_geun_ear" name="r_geun_ear" placeholder="R 근용 귀 입력"><br><br>
+        
+                <label for="r_geun_nose">R 근용 코:</label>
+                <input type="text" id="r_geun_nose" name="r_geun_nose" placeholder="R 근용 코 입력"><br><br>
+        
+                <label for="r_geun">R 근용:</label>
+                <input type="text" id="r_geun" name="r_geun" placeholder="R 근용 입력"><br><br>
+        
+                <label for="r_geun_bottom">R 근용 아래:</label>
+                <input type="text" id="r_geun_bottom" name="r_geun_bottom" placeholder="R 근용 아래 입력"><br><br>
+        
+                <button type="submit">제출</button>
+            </form>
+        </div>
+        <div class="right-section">
+            
+        </div>
+        
+    </body>
+</html>
